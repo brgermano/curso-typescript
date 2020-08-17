@@ -1,3 +1,3 @@
-const a: string = 'Teste ts 2232!'
+const a: string = 'loko mtteu!'
 
 console.log(a)
