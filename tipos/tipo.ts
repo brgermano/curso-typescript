@@ -34,3 +34,22 @@ let endereco: [string, number, string] = ["Av Principal", 99, "Bloco A"]
 console.log(endereco)
 
 endereco = ["Rua Importante", 1269, "Bloco A"]
+console.log(endereco)
+
+// enums
+// define valores pre definidos
+enum Cor {
+  Cinza, //0
+  Verde = 100, //1
+  Azul = 10, //2
+  Laranja,
+  Amarelo,
+  Vermelho = 100
+}
+
+let minhaCor: Cor = Cor.Verde
+console.log(minhaCor)
+
+console.log(Cor.Azul)
+console.log(Cor.Laranja, Cor.Amarelo)
+console.log(Cor.Verde, Cor.Vermelho)
