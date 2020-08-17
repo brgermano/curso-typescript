@@ -23,3 +23,8 @@ console.log(hobbies[0]);
 console.log(typeof hobbies);
 hobbies = [100, 200, 300];
 console.log(hobbies);
+//tuplas
+//tupla é um array que possui um formato determinado de valores
+var endereco = ["Av Principal", 99, "Bloco A"];
+console.log(endereco);
+endereco = ["Rua Importante", 1269, "Bloco A"];
