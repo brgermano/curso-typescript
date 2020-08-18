@@ -60,3 +60,20 @@ console.log("carro", carro)
 carro = { marca: 'BMW', ano: 2019 }
 console.log("carro", carro)
 
+// funçoes 
+function retornaMeuNome(): string {
+  return nome
+}
+console.log("retornaMeuNome -> retornaMeuNome", retornaMeuNome())
+
+function digaOi(): void {
+  console.log('Oi')
+  // return minhaIdade
+}
+digaOi()
+
+function multiplicar(numA: number, numB: number): number {
+  return numA * numB
+}
+// console.log(multiplicar(2, "bia"))
+console.log(multiplicar(4, 9))
