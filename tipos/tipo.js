@@ -56,7 +56,7 @@ function retornaMeuNome() {
 }
 console.log("retornaMeuNome -> retornaMeuNome", retornaMeuNome());
 function digaOi() {
-    console.log('Oi');
+    console.log('Oia');
     // return minhaIdade
 }
 digaOi();
@@ -65,3 +65,9 @@ function multiplicar(numA, numB) {
 }
 // console.log(multiplicar(2, "bia"))
 console.log(multiplicar(4, 9));
+// tipo função
+var calculo;
+// calculo = digaOi
+// calculo()
+calculo = multiplicar;
+console.log(calculo(5, 6));

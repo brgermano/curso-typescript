@@ -67,7 +67,7 @@ function retornaMeuNome(): string {
 console.log("retornaMeuNome -> retornaMeuNome", retornaMeuNome())
 
 function digaOi(): void {
-  console.log('Oi')
+  console.log('Oia')
   // return minhaIdade
 }
 digaOi()
@@ -77,3 +77,13 @@ function multiplicar(numA: number, numB: number): number {
 }
 // console.log(multiplicar(2, "bia"))
 console.log(multiplicar(4, 9))
+
+// tipo função
+let calculo: (numberoA: number, numeroB: number) => number 
+// calculo = digaOi
+// calculo()
+
+calculo = multiplicar
+console.log(calculo(5, 6))
+
+
